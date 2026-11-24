@@ -17,15 +17,15 @@ export default function Hero() {
       <Container className="flex min-h-[min(calc(100svh-7.25rem),780px)] flex-col justify-center py-20 lg:min-h-[680px]">
         <div className="max-w-2xl">
           <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-medium backdrop-blur">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-amber" /> New beauty collection is here
+            <span className="h-2 w-2 animate-pulse rounded-full bg-amber" /> New women’s collection is here
           </span>
           <h1 className="mt-6 text-5xl font-extrabold leading-[1.04] sm:text-6xl lg:text-7xl">
-            Your hair. Your glow.
+            Everything she loves,
             <br />
-            <span className="text-brand">Beautifully styled.</span>
+            <span className="text-brand">all in one place.</span>
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-white/75">
-            Discover premium hair styling tools, hair care, makeup and skincare — salon-quality results at home, delivered to your door in days.
+            Discover premium products for women — beauty, makeup, skincare, hair care and styling tools — carefully selected and delivered to your door in days.
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <a
