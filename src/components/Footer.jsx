@@ -1,6 +1,6 @@
 import { ArrowUp, Mail, MapPin, Phone } from 'lucide-react'
 import { NAV_LINKS, STORE } from '../data/store'
-import { Container, Logo } from './ui'
+import { Container, Logo, WhatsAppIcon, WHATSAPP_URL } from './ui'
 
 const svg = (children) => (props) => (
   <svg viewBox="0 0 24 24" width={props.size} height={props.size} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -76,6 +76,11 @@ export default function Footer() {
               <li>
                 <a href={`tel:${STORE.phone.replace(/[^+\d]/g, '')}`} className={`${col} flex gap-3`}>
                   <Phone size={19} className="shrink-0 text-orange" /> {STORE.phone}
+                </a>
+              </li>
+              <li>
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className={`${col} flex gap-3`}>
+                  <WhatsAppIcon size={19} className="shrink-0 text-[#25D366]" /> Chat on WhatsApp
                 </a>
               </li>
               <li>

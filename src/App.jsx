@@ -10,6 +10,7 @@ import Features from './components/Features'
 import Newsletter from './components/Newsletter'
 import Footer from './components/Footer'
 import { CartDrawer, Toast } from './components/CartDrawer'
+import WhatsAppButton from './components/WhatsAppButton'
 
 export default function App() {
   const [filter, setFilter] = useState('all')
@@ -30,6 +31,7 @@ export default function App() {
       <Footer />
       <CartDrawer />
       <Toast />
+      <WhatsAppButton />
     </StoreProvider>
   )
 }

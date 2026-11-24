@@ -8,6 +8,7 @@ export const STORE = {
   freeShippingThreshold: 75,
   email: 'hello@bazario.com',
   phone: '0600121980',
+  whatsapp: '212600121980', // international format, no "+" — used for https://wa.me/<number>
   address: '24 Market Street, Suite 8, New York, NY',
 }
 
