@@ -19,8 +19,8 @@ export default function Hero() {
           <span className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-medium backdrop-blur">
             <span className="h-2 w-2 animate-pulse rounded-full bg-amber" /> New women’s collection is here
           </span>
-          <h1 className="mt-6 text-5xl font-extrabold leading-[1.04] sm:text-6xl lg:text-7xl">
-            Everything she loves,
+          <h1 className="mt-6 text-[2.1rem] font-extrabold leading-[1.1] min-[420px]:text-5xl sm:text-6xl lg:text-7xl">
+            <span className="whitespace-nowrap">Everything she loves,</span>
             <br />
             <span className="text-brand">all in one place.</span>
           </h1>
