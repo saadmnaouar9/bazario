@@ -7,7 +7,7 @@ export const STORE = {
   currency: 'DH',
   freeShippingThreshold: 75,
   email: 'hello@bazario.com',
-  phone: '+1 (555) 014-2290',
+  phone: '0600121980',
   address: '24 Market Street, Suite 8, New York, NY',
 }
 
